@@ -24,7 +24,7 @@ The simulated battery voltage is scaled by the sensing circuit before being samp
 5. **Status outputs:** Drives the red or green LED and reports the voltage over the serial console.
 
 <!-- Add your architecture notes image to images/architecture-notes.png. -->
-![Handwritten system architecture notes](architecture-notes.png)
+![Handwritten system architecture notes](battery_monitor_architecture.pdf)
 
 ## Other Embedded and Mechatronics Projects
 
@@ -33,14 +33,14 @@ The simulated battery voltage is scaled by the sensing circuit before being samp
 This project uses an **STM32 microcontroller** to control two stepper motors in a two-axis configuration. The mechanism positions a laser pointer toward selected stars in the night sky. I designed the CAD enclosure and developed the electrical system and embedded firmware, giving me end-to-end experience across mechanical design, electronics, motor control, and firmware integration.
 
 <!-- Add the star tracker image to images/star-tracker.jpg. -->
-![Two-axis star tracker](star-tracker.heic)
+![Two-axis star tracker](star_tracker.heic)
 
 ### Automated Wall-Mounted Cat Feeder
 
 This project is an automated, wall-mounted cat feeder built around a custom food-dispensing mechanism. An embedded controller drives a stepper motor to dispense a controlled portion of dry cat food. The mechanical design and dispensing mechanism are complete, and the custom PCB is currently in development.
 
 <!-- Add the cat feeder image to images/cat-feeder.jpg. -->
-![Automated wall-mounted cat feeder](cat-feeder.heic)
+![Automated wall-mounted cat feeder](cat_feeder.heic)
 
 ## Project Status
 
